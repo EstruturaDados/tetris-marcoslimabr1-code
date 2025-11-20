@@ -1,6 +1,6 @@
 /*
  * Projeto: Tetris Stack - Controle de Peças (Nível Novato)
- * Desenvolvedor: [Seu Nome / Gemini]
+ * Desenvolvedor: [Marcos Lima]
  * Empresa: ByteBros
  * Descrição: Implementação de fila circular para gerenciamento de peças futuras.
  */
@@ -157,4 +157,5 @@ void exibirFila() {
     printf("\n");
     // Mostra info técnica para depuração (opcional)
     printf("(Debug: Inicio=%d, Fim=%d, Total=%d)\n", inicio, fim, tamanhoAtual);
+
 }
